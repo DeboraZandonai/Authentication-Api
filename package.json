@@ -20,7 +20,7 @@
     "koa-router": "^7.4.0",
     "sequelize": "^5.8.9",
     "sequelize-cli": "^5.5.0",
-    "sqlite3": "^4.0.9"
+    "sqlite3": "^5.0.2"
   },
   "devDependencies": {
     "nodemon": "^1.19.1"

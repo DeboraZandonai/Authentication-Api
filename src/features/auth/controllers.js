@@ -24,7 +24,7 @@ module.exports = {
         const user = await services.auth(body)
         if (user) {
             response.body = {
-                result: jwt.sign({ email: user.email }, 'meusegredo')
+                result: jwt.sign({ email: user.email }, 'e-mail')
             }
         } else {
             response.status = 401
